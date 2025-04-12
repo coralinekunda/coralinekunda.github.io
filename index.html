@@ -12,6 +12,8 @@
       --muted-color: #9aa5ce;
       --header-color: #f7768e;
       --card-bg: #2c2c3c;
+      --button-bg: #7aa2f7;
+      --button-text: #1e1e2f;
     }
 
     body {
@@ -52,6 +54,24 @@
     .contact {
       font-size: 0.95rem;
       color: var(--muted-color);
+      margin-bottom: 1rem;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background-color: var(--button-bg);
+      color: var(--button-text);
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 0.5rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #5a8af5;
     }
 
     .section {
@@ -91,6 +111,7 @@
     <div class="contact">
       Email: coralinekunda@gmail.com · Phone: (317) 503-7729 · Chicago, Illinois
     </div>
+    <a class="download-btn" href="Wesley_Kunda_Resume.pdf" download>Download PDF Resume</a>
   </header>
 
   <section class="section">
