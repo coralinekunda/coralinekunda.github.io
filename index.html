@@ -5,41 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Wesley (Cora) Kunda - Resume</title>
   <style>
+    :root {
+      --bg-color: #1e1e2f;
+      --text-color: #e4e4f0;
+      --accent-color: #7aa2f7;
+      --muted-color: #9aa5ce;
+      --header-color: #f7768e;
+      --card-bg: #2c2c3c;
+    }
+
     body {
       font-family: "Helvetica Neue", sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
+      background-color: var(--bg-color);
+      color: var(--text-color);
       margin: 0;
       padding: 2rem;
       max-width: 800px;
       margin: auto;
+      line-height: 1.6;
     }
+
     header {
-      border-bottom: 2px solid #ddd;
+      border-bottom: 2px solid var(--accent-color);
       padding-bottom: 1rem;
       margin-bottom: 2rem;
     }
+
     h1 {
       margin: 0;
-      font-size: 2.2rem;
+      font-size: 2.5rem;
+      color: var(--header-color);
     }
+
     h2 {
-      color: #444;
-      margin-top: 2rem;
+      color: var(--accent-color);
+      margin-top: 2.5rem;
+      border-bottom: 1px solid var(--card-bg);
+      padding-bottom: 0.3rem;
     }
+
+    h3 {
+      color: var(--text-color);
+      margin-bottom: 0.2rem;
+    }
+
     .contact {
       font-size: 0.95rem;
-      color: #555;
+      color: var(--muted-color);
     }
+
     .section {
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      background: var(--card-bg);
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00000033;
     }
+
     ul {
       padding-left: 1.2rem;
     }
+
     li {
       margin-bottom: 0.4rem;
     }
+
+    p, li {
+      color: var(--text-color);
+    }
+
+    em {
+      color: var(--muted-color);
+    }
+
     @media (max-width: 600px) {
       body {
         padding: 1rem;
@@ -129,4 +167,3 @@
   </section>
 </body>
 </html>
-
