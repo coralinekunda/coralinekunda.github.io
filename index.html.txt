@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name - Resume</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    header {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    h2 {
+      color: #444;
+      margin-top: 2rem;
+    }
+    .contact {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .section {
+      margin-bottom: 1.5rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <div class="contact">
+      Email: your.email@example.com · Phone: (123) 456-7890 · LinkedIn: linkedin.com/in/yourname
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Summary</h2>
+    <p>Brief summary of your skills and experience. Example: Experienced web developer with a passion for building intuitive digital experiences.</p>
+  </section>
+
+  <section class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js, Express</li>
+      <li>Git, GitHub, Agile Development</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Experience</h2>
+    <h3>Job Title – Company Name</h3>
+    <p><em>Location · Month Year – Present</em></p>
+    <ul>
+      <li>Describe your responsibilities and achievements.</li>
+      <li>Use action verbs and measurable results.</li>
+    </ul>
+    <h3>Previous Job Title – Previous Company</h3>
+    <p><em>Location · Month Year – Month Year</em></p>
+    <ul>
+      <li>Another list of duties or cool things you did.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Education</h2>
+    <p><strong>Degree</strong> – University Name<br/>
+    <em>Month Year – Month Year</em></p>
+  </section>
+
+  <section class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project Name</strong>: Short description and link if applicable.</li>
+      <li><strong>Another Project</strong>: Same deal, different flavor.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
